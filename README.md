@@ -15,7 +15,7 @@
 
 ### 👨‍💻 About Me
 
-- 🔭 I’m currently working on building awesome things!
+- 🔭 I’m currently working on **[devorbit_cli](https://github.com/salch-cred/devorbit_cli)**, a Python terminal coding agent powered by NVIDIA NIM models.
 - 🌱 I’m currently learning new technologies to expand my full-stack skills.
 - 👯 I’m looking to collaborate on Open Source Projects.
 - 💬 Ask me about web development and programming.
