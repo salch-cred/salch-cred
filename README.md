@@ -43,3 +43,11 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=salch-cred&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=salch-cred&layout=compact&langs_count=6&theme=radical"/>
 </div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+### 🤝 Connect with me
+
+<p align="center">
+<a href="https://twitter.com/salmanch_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40" /></a>
+</p>
