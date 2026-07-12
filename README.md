@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm sal</h1>
-<h3 align="center">🚀 Full Stack Developer | Building devorbit_cli & AI Tools</h3>
+<h3 align="center">🚀 Full Stack & AI/ML Engineer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0E75B6&center=true&vCenter=true&width=435&lines=Full-Stack+Developer;AI+Enthusiast;Python+%26+JS+Lover" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0E75B6&center=true&vCenter=true&width=435&lines=Full-Stack+Engineer;AI%2FML+Engineer;Python+%26+JS+Lover" alt="Typing SVG" />
 </p>
 
 <p align="center">
