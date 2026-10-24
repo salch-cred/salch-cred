@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.svg" width="100%" alt="Salman — systems, agents, settlement rails" />
+  <img src="assets/banner.svg" width="100%" alt="Salman — AI/ML engineer, Mangaluru, India" />
 </div>
 
 <br />
