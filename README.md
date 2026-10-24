@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
   <img src="assets/banner.svg" width="100%" alt="Salman Chhatwal â€” systems, agents, settlement rails" />
 </div>
 
@@ -6,7 +6,7 @@
 
 Full-stack and AI/ML engineer. Most of what I build sits under agents rather than inside them: settlement rails, permission layers, adjudication, the machinery that has to hold when nobody is watching.
 
-I work upstream too. 374 pull requests to Nous Research's Hermes Agent and its plugin repos â€” TUI, gateway, tool layer, desktop runtimes, state stores, adapters.
+I work upstream too. 374 pull requests and 58 commits to Nous Research's Hermes Agent and its plugin repos â€” TUI, gateway, tool layer, desktop runtimes, state stores, adapters.
 
 <br />
 
@@ -22,7 +22,7 @@ I work upstream too. 374 pull requests to Nous Research's Hermes Agent and its p
 | --- | --- | --- |
 | **PayMate** â€” non-custodial USDC billing rail for agents | author | live on GOAT mainnet |
 | **MediVault** â€” private AI health vault on 0G | author | live, ERC-7857 contract on mainnet |
-| **Hermes Agent** â€” agent runtime and plugin catalog | upstream contributor | 374 PRs open |
+| **Hermes Agent** â€” agent runtime and plugin catalog | upstream contributor | 374 PRs · 58 commits |
 | **GenLayer adjudication** â€” evidence-first verdict contracts | author | 3 protocols shipped |
 
 <br />
@@ -32,7 +32,7 @@ I work upstream too. 374 pull requests to Nous Research's Hermes Agent and its p
 <br />
 
 <div align="center">
-  <img src="assets/stats.svg" width="100%" alt="374 upstream PRs, 68 merged, 12 shipped products, 25 stars" />
+  <img src="assets/stats.svg" width="100%" alt="374 upstream PRs, 58 commits authored, 3 merged, 10 skills published" />
 </div>
 
 <br />
@@ -47,9 +47,28 @@ Shipped upstream:
 | [`hermes-official-plugins#61`](https://github.com/NousResearch/hermes-official-plugins/pull/61) | directsdk: carries the login identity into the child env, captures native stderr |
 | [`hermes-labs-plugins#3`](https://github.com/NousResearch/hermes-labs-plugins/pull/3) | record: an `autocomplete` token inside a list is still a secret field |
 
+The patches themselves — 58 commits across 20+ topic branches:
+
+| Commit | What it does |
+| --- | --- |
+| `fix(gateway): park a unit on unprovable --replace ownership instead of restart-looping` | stops a restart loop when ownership of a gateway unit can't be proven |
+| `fix(gateway): rescue orphaned FIFO overflow when session goes idle (#99882)` | drains the FIFO a dead session leaves behind |
+| `fix(gateway): log every missed liveness probe and dump the loop's task state` | makes a wedged loop diagnosable instead of silent |
+| `fix(tools): bound a check_fn probe so a wedged availability check cannot hang the turn` | time-boxes tool availability probes |
+| `fix(state): key display identity of tool rows on stable tool identity, not payload bytes (#117750)` | rows stop re-keying on every payload change |
+| `fix(state): implement lazy flock single-writer gate to prevent WAL corruption` | single-writer gate over short-lived connections |
+| `fix(desktop): assistant rows whose text persisted to sidecars no longer vanish on rehydrate (#68321)` | restores rows that rehydrated blank |
+| `fix(discord): dispatch-side liveness dimension detects an ACKing-but-deaf gateway socket (#109521)` | catches a socket that ACKs but never delivers |
+| `fix(agent): mirror Claude Code OAuth refresh into the macOS Keychain (#98334)` | keeps the refresh token where the OS expects it |
+| `fix(checkpoints): drop oversize files from the index by literal pathspec` | oversized blobs no longer wedge the checkpoint index |
+| `fix(backup): percent-encode path in _query_ro_sqlite URI` | backup paths with spaces resolve |
+| `fix(cron): keep a sticky last_failure stamp so a healed run stays visible` | a healed cron run still shows it failed |
+| `fix(whatsapp): adapter reads WHATSAPP_GROUP_ALLOWED_USERS for the group allowlist (#72529)` | group allowlist honours the documented env var |
+| `fix(preview): use proper input events for React/contenteditable/submit in drive_preview type` | typing lands in React and contenteditable fields |
+
 Open and in review: [gateway restart paths](https://github.com/NousResearch/hermes-agent/pull/142501) Â· [stale heartbeat requeues](https://github.com/NousResearch/hermes-agent/pull/142275) Â· [execute_code kernel memory caps](https://github.com/NousResearch/hermes-agent/pull/142249) Â· [wedged `check_fn` probes](https://github.com/NousResearch/hermes-agent/pull/142062) Â· [bounded inbound media download](https://github.com/NousResearch/hermes-official-plugins/pull/153) Â· [local-time timestamps in Home Assistant](https://github.com/NousResearch/hermes-official-plugins/pull/160).
 
-**Surfaces touched:** TUI Â· gateway lifecycle Â· tool execution and output spilling Â· cron and heartbeats Â· desktop (Windows/macOS) Â· MCP Â· ACP Â· SQLite state and WAL Â· compression and checkpointing Â· installers Â· Discord / WhatsApp / xchat adapters Â· DirectSDK Â· Spotify Â· Home Assistant.
+**Surfaces touched:** TUI Â· gateway lifecycle Â· tool execution and output spilling Â· cron and heartbeats Â· desktop (Windows/macOS) Â· MCP Â· ACP Â· SQLite state, WAL, backups Â· compression and checkpointing Â· installers Â· Discord / WhatsApp / xchat adapters Â· DirectSDK Â· Spotify Â· Home Assistant.
 
 Also authored 10 Hermes skills published as standalone repos â€” [daily briefing](https://github.com/salch-cred/hermes-daily-briefing), [release radar](https://github.com/salch-cred/hermes-release-radar), [disk guard](https://github.com/salch-cred/hermes-disk-guard), [IP watchdog](https://github.com/salch-cred/hermes-ip-watchdog), [uptime digest](https://github.com/salch-cred/hermes-uptime-digest), [cert expiry](https://github.com/salch-cred/hermes-cert-expiry), [price digest](https://github.com/salch-cred/hermes-price-digest), [battery](https://github.com/salch-cred/hermes-battery), [dead link](https://github.com/salch-cred/hermes-dead-link), [folder size](https://github.com/salch-cred/hermes-folder-size).
 
