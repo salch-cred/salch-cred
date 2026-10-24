@@ -32,7 +32,7 @@ I work upstream too: 374 pull requests and 58 commits to Nous Research's Hermes 
 <br />
 
 <div align="center">
-  <img src="assets/stats.svg" width="100%" alt="374 upstream PRs, 58 hermes-agent commits, 3 merged, 10 skills published" />
+  <img src="assets/stats.svg" width="100%" alt="374 upstream PRs, 58 hermes-agent commits, 36 already on main, 10 skills published" />
 </div>
 
 <br />
@@ -53,7 +53,7 @@ Shipped upstream:
 | [`hermes-official-plugins#61`](https://github.com/NousResearch/hermes-official-plugins/pull/61) | directsdk: carries the login identity into the child env, captures native stderr |
 | [`hermes-labs-plugins#3`](https://github.com/NousResearch/hermes-labs-plugins/pull/3) | record: an `autocomplete` token inside a list is still a secret field |
 
-The patches themselves — all 58, every one in `hermes-agent`, spread over 20+ topic branches:
+The patches themselves — all 58, every one in `hermes-agent`, spread over 20+ topic branches. **36 are already on `main`**; the rest are in open PRs or awaiting rebase:
 
 | Date | Commit |
 | --- | --- |
