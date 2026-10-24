@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Salman Chhatwal — systems, agents, settlement rails">
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#242427"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B0B0C" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#0B0B0C" stop-opacity="0.86"/>
+      <stop offset="1" stop-color="#0B0B0C" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" fill="#0B0B0C"/>
+  <rect width="1200" height="360" fill="url(#dots)"/>
+  <rect width="1200" height="360" fill="url(#fade)"/>
+
+  <!-- corner ticks -->
+  <g stroke="#3A3A3E" stroke-width="1">
+    <path d="M24 48V24h24"/>
+    <path d="M1152 24h24v24"/>
+    <path d="M1176 312v24h-24"/>
+    <path d="M48 336H24v-24"/>
+  </g>
+
+  <!-- accent rail -->
+  <rect x="72" y="70" width="4" height="220" fill="#C8F04A"/>
+  <rect x="72" y="70" width="4" height="66" fill="#0B0B0C" opacity="0.55"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace">
+    <text x="104" y="86" fill="#8A8A85" font-size="12" letter-spacing="4">00 — IDENTITY</text>
+
+    <text x="104" y="158" fill="#E8E8E6" font-size="58" font-weight="700" letter-spacing="-1">SALMAN</text>
+    <text x="104" y="216" fill="#E8E8E6" font-size="58" font-weight="700" letter-spacing="-1">CHHATWAL</text>
+    <text x="104" y="252" fill="#C8F04A" font-size="14" letter-spacing="2.5">SYSTEMS · AGENTS · SETTLEMENT RAILS</text>
+
+    <g font-size="12" letter-spacing="1.5" fill="#8A8A85">
+      <text x="104" y="300">MANGALURU, IN</text>
+      <text x="236" y="300" fill="#3A3A3E">/</text>
+      <text x="258" y="300">@salch-cred</text>
+      <text x="372" y="300" fill="#3A3A3E">/</text>
+      <text x="394" y="300" fill="#E8E8E6">OPEN TO HARD PROBLEMS</text>
+    </g>
+
+    <circle cx="1004" cy="300" r="4" fill="#C8F04A"/>
+    <text x="1020" y="304" fill="#8A8A85" font-size="12" letter-spacing="1.5">SHIPPING ONGOING</text>
+  </g>
+</svg>

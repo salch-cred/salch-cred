@@ -1,154 +1,155 @@
-<h1 align="center">Hi 👋, I'm sal</h1>
-<h3 align="center">🚀 Full Stack & AI/ML Engineer | Data Science</h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0E75B6&center=true&vCenter=true&width=480&lines=Full-Stack+Engineer;AI%2FML+Engineer;Data+Science;TypeScript+%26+Python" alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=salch-cred&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-  <img src="https://img.shields.io/github-followers/salch-cred?label=Followers&style=flat&color=0E75B6" alt="Followers" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=salch-cred&theme=onedark&no-frame=true&no-bg=true&margin-w=15&margin-h=15" alt="GitHub Trophies" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-</p>
-
----
-
-## 👨‍💻 About Me
-
-- 🔭 I'm currently building **[medivault](https://github.com/salch-cred/medivault)** — a powerful TypeScript project
-- 🧠 Exploring advanced AI/ML with **[quantum-entangled-transformer](https://github.com/salch-cred/quantum-entangled-transformer)**
-- 🔍 Creator of **[RialoScan](https://github.com/salch-cred/RialoScan)**
-- 🌱 Deepening expertise in **Quantum Machine Learning**, **Data Science**, and **Full-Stack architectures**
-- 👯 Open to collaborating on innovative **Open Source AI & Data projects**
-- 💬 Ask me about **TypeScript, Python, TensorFlow, PyTorch, React, Node.js**
-- ⚡ I love automating the boring stuff and building tools that make developers' lives easier
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-</p>
-
----
-
-## 🛠️ Tech Stack
-
-### Languages
-<p align="left">
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/sql-%230230F2.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/cpp-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-</p>
-
-### AI / ML / Data Science
-<p align="left">
-  <img src="https://img.shields.io/badge/tensorflow-%23FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/pytorch-%23EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/scikitlearn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn" />
-  <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/matplotlib-%2300467B.svg?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib" />
-  <img src="https://img.shields.io/badge/jupyter-%23212224.svg?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
-  <img src="https://img.shields.io/badge/hugging%20faces-%23FFD21E.svg?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
-  <img src="https://img.shields.io/badge/opencv-%23ffffff.svg?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
-</p>
-
-### Frontend
-<p align="left">
-  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/nextjs-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/tailwindcss-%2306B6D4.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-  <img src="https://img.shields.io/badge/sass-%23CC6699.svg?style=for-the-badge&logo=sass&logoColor=white" alt="Sass" />
-</p>
-
-### Backend
-<p align="left">
-  <img src="https://img.shields.io/badge/nodejs-%23339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="NodeJS" />
-  <img src="https://img.shields.io/badge/express-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
-  <img src="https://img.shields.io/badge/fastapi-%23009688.svg?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/graphql-%23E10098.svg?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL" />
-</p>
-
-### Databases & Cloud
-<p align="left">
-  <img src="https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/mongodb-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/aws-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-</p>
-
----
-
-## 📊 GitHub Analytics
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=salch-cred&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats" height="190" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salch-cred&layout=compact&langs_count=10&theme=tokyonight&hide_border=true" alt="Top Languages" height="190" />
+  <img src="assets/banner.svg" width="100%" alt="Salman Chhatwal — systems, agents, settlement rails" />
 </div>
 
+<br />
+
+Full-stack and AI/ML engineer. Most of what I build sits under agents rather than inside them: settlement rails, permission layers, adjudication, the machinery that has to hold when nobody is watching.
+
+I work upstream too. 374 pull requests to Nous Research's Hermes Agent and its plugin repos — TUI, gateway, tool layer, desktop runtimes, state stores, adapters.
+
+<br />
+
+<div align="center"><img src="assets/rule.svg" width="100%" alt="" /></div>
+
+<br />
+
+<div align="center"><img src="assets/sec-01.svg" width="100%" alt="01 — Now" /></div>
+
+<br />
+
+| Working on | Role | State |
+| --- | --- | --- |
+| **PayMate** — non-custodial USDC billing rail for agents | author | live on GOAT mainnet |
+| **MediVault** — private AI health vault on 0G | author | live, ERC-7857 contract on mainnet |
+| **Hermes Agent** — agent runtime and plugin catalog | upstream contributor | 374 PRs open |
+| **GenLayer adjudication** — evidence-first verdict contracts | author | 3 protocols shipped |
+
+<br />
+
+<div align="center"><img src="assets/sec-02.svg" width="100%" alt="02 — Hermes Agent" /></div>
+
+<br />
+
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=salch-cred&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="180" />
-  <img src="https://profile-counter.glitch.me/salch-cred/count.svg" alt="Profile Counter" height="120" />
+  <img src="assets/stats.svg" width="100%" alt="374 upstream PRs, 68 merged, 12 shipped products, 25 stars" />
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-</p>
+<br />
 
----
+Hermes is the agent that grows with you — a real agent runtime with desktop apps, gateways, channels, sandboxes, memory and a plugin catalog. I spend my time in the failure modes: a gateway that won't release a stale PID, a Windows profile path with non-ASCII characters, a WAL generation unlinked by a short-lived reader, an OAuth login that a single refresh can revive.
 
-## 📈 Skill Overview
+Shipped upstream:
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,py,js,react,node,next,tailwind,postgres,mongo,docker,aws,git,pytorch,tensorflow,pandas,numpy,jupyter,linux,docker,kubernetes,graphql,fastapi,bash,postman,figma,vscode,gitpod &theme=light" alt="Skill Icons" />
-</p>
+| PR | What it fixes |
+| --- | --- |
+| [`hermes-agent#140922`](https://github.com/NousResearch/hermes-agent/pull/140922) | gateway: stamps an unproven `--replace` refusal as `startup_failed` so the next start wins |
+| [`hermes-official-plugins#61`](https://github.com/NousResearch/hermes-official-plugins/pull/61) | directsdk: carries the login identity into the child env, captures native stderr |
+| [`hermes-labs-plugins#3`](https://github.com/NousResearch/hermes-labs-plugins/pull/3) | record: an `autocomplete` token inside a list is still a secret field |
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-</p>
+Open and in review: [gateway restart paths](https://github.com/NousResearch/hermes-agent/pull/142501) · [stale heartbeat requeues](https://github.com/NousResearch/hermes-agent/pull/142275) · [execute_code kernel memory caps](https://github.com/NousResearch/hermes-agent/pull/142249) · [wedged `check_fn` probes](https://github.com/NousResearch/hermes-agent/pull/142062) · [bounded inbound media download](https://github.com/NousResearch/hermes-official-plugins/pull/153) · [local-time timestamps in Home Assistant](https://github.com/NousResearch/hermes-official-plugins/pull/160).
 
----
+**Surfaces touched:** TUI · gateway lifecycle · tool execution and output spilling · cron and heartbeats · desktop (Windows/macOS) · MCP · ACP · SQLite state and WAL · compression and checkpointing · installers · Discord / WhatsApp / xchat adapters · DirectSDK · Spotify · Home Assistant.
 
-## 🤝 Connect With Me
+Also authored 10 Hermes skills published as standalone repos — [daily briefing](https://github.com/salch-cred/hermes-daily-briefing), [release radar](https://github.com/salch-cred/hermes-release-radar), [disk guard](https://github.com/salch-cred/hermes-disk-guard), [IP watchdog](https://github.com/salch-cred/hermes-ip-watchdog), [uptime digest](https://github.com/salch-cred/hermes-uptime-digest), [cert expiry](https://github.com/salch-cred/hermes-cert-expiry), [price digest](https://github.com/salch-cred/hermes-price-digest), [battery](https://github.com/salch-cred/hermes-battery), [dead link](https://github.com/salch-cred/hermes-dead-link), [folder size](https://github.com/salch-cred/hermes-folder-size).
 
-<p align="center">
-  <a href="https://twitter.com/salmanch_" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="40" width="50" />
-  </a>
-  <a href="https://www.linkedin.com/in/salman-chhatwal-70339227a/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linkedin.svg" alt="LinkedIn" height="40" width="50" />
-  </a>
-  <a href="https://github.com/salch-cred" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="40" width="50" />
-  </a>
-  <a href="mailto:salmanch98@gmail.com" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" alt="Gmail" height="40" width="50" />
-  </a>
-</p>
+<br />
+
+<div align="center"><img src="assets/sec-03.svg" width="100%" alt="03 — Selected work" /></div>
+
+<br />
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+  <a href="https://github.com/salch-cred/medivault"><img src="assets/card-01.svg" width="47%" alt="MediVault" /></a>
+  &nbsp;
+  <a href="https://github.com/salch-cred/AgentPassport"><img src="assets/card-02.svg" width="47%" alt="AgentPassport" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/salch-cred/provenode"><img src="assets/card-03.svg" width="47%" alt="ProvenNode" /></a>
+  &nbsp;
+  <a href="https://github.com/salch-cred/PolicyCourt"><img src="assets/card-04.svg" width="47%" alt="PolicyCourt" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/salch-cred/veritas-genlayer"><img src="assets/card-05.svg" width="47%" alt="Veritas" /></a>
+  &nbsp;
+  <a href="https://github.com/salch-cred/aerosure-genlayer"><img src="assets/card-06.svg" width="47%" alt="AeroSure" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/salch-cred/hydrasentinel"><img src="assets/card-07.svg" width="47%" alt="HydraSentinel" /></a>
+  &nbsp;
+  <a href="https://github.com/salch-cred/-Permitly"><img src="assets/card-08.svg" width="47%" alt="Permitly" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/salch-cred/wefspan"><img src="assets/card-09.svg" width="47%" alt="wefspan" /></a>
+  &nbsp;
+  <a href="https://github.com/salch-cred/moovegate"><img src="assets/card-10.svg" width="47%" alt="MooveGate" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/salch-cred/skillmint"><img src="assets/card-11.svg" width="47%" alt="SkillMint" /></a>
+  &nbsp;
+  <a href="https://github.com/salch-cred/RialoScan"><img src="assets/card-12.svg" width="47%" alt="RialoScan" /></a>
 </p>
 
-<p align="center">
-  <img src="https://visitor-badge.glitch.me/badge?page_id=salch-cred.salch-cred&left_color=blue&right_color=red&left_text=Visitors" alt="Visitors" />
-</p>
+<br />
+
+**Also shipped:** [JanFix](https://github.com/salch-cred/janfix) (civic reporting, zero login, ward routing) · [Monaco CLOB dashboard](https://github.com/salch-cred/monaco-clob-dashboard) (Sei order book) · [SnakeCase](https://github.com/salch-cred/snakecase) (34-lesson Python curriculum) · [ZeroSense](https://github.com/salch-cred/zero-sense) (ZK robot proofs + Stellar micropayments) · [Reso](https://github.com/salch-cred/reso) (ZK compliance engine) · [Atropos tooling](https://github.com/salch-cred/atropos).
+
+<br />
+
+<div align="center"><img src="assets/sec-04.svg" width="100%" alt="04 — PayMate" /></div>
+
+<br />
+
+### The billing rail for the agent economy
+
+Agents can chat, code and research. They cannot collect money. Invoices are PDFs, chasing is manual, and nothing exists for a per-call micropayment. Freelancers, meanwhile, have no portable proof that they finished anything.
+
+[PayMate](https://github.com/salch-cred/paymate-new-) closes both sides: a freelancer or an agent creates an invoice or a paywalled endpoint, the client settles in **real USDC directly to the freelancer's wallet**, and every settlement mints a portable on-chain reputation credential. No custody of principal, no API-key gatekeeping.
+
+**Live:** [paymateagent.xyz](https://www.paymateagent.xyz) · **Docs:** [paymateagent.xyz/docs](https://www.paymateagent.xyz/docs) · **Developers:** [paymateagent.xyz/developers](https://www.paymateagent.xyz/developers)
+
+| Piece | Mechanism |
+| --- | --- |
+| Settlement | USDC on GOAT mainnet (chain 2345), client → freelancer wallet, verified on-chain |
+| Agent billing | `POST /api/agent-billing` mints per-call x402 challenges; replay-guarded unlock |
+| Reputation | ERC-8004 soulbound credential per settlement — travels with the agent |
+| Escrow | `YieldEscrow` locks funds; PR merge or AI verdict releases them |
+| Disputes | Mistral arbitrator rules against the original scope: pay / refund / split |
+| Cross-chain | client signs one tx on any of 39 networks; relayer converts and settles in USDC |
+| Zero-custody rail | swap → approve → bridge, DOGEB lands straight in the freelancer's wallet |
+| Self-refill | BSC deposits pivot, bridge and DEX-swap into the payout pool automatically |
+| Operator agent | audits the ledger, checks liquidity runway, retries failed swaps under hard USD caps |
+
+Deployed and verifiable — `YieldEscrow` `0xEbe3BE16d7fd69268BcADdB6DB25C60dFff302e0`, `PayMateReputation` `0x48B9B6BB1C4Eb4b6911D05dfd3E87F8be8a67603`, `PayMateTreasury` `0x59C4c64DF838f23b8dA77A95c18BC3520D71e25B` on GOAT mainnet. Settlement counts, fee take and every hop are on the public [growth](https://www.paymateagent.xyz/growth) and [treasury](https://www.paymateagent.xyz/treasury) pages — read from the API, not asserted in a deck.
+
+The part I actually care about: nothing moves on trust. Bridge and DEX paths ship **fail-closed** behind verification flags until a real-money probe passes, the relayer's ledger is idempotent, and the AI operator can prioritise but never exceed a code-enforced cap.
+
+<br />
+
+<div align="center"><img src="assets/sec-05.svg" width="100%" alt="05 — Research systems" /></div>
+
+<br />
+
+Smaller, stranger builds where the constraint is the point — every one of them a working repo, not a notebook:
+
+[quantum-entangled-transformer](https://github.com/salch-cred/quantum-entangled-transformer) (attention heads as entangled states) · [cellular-automata-transformer](https://github.com/salch-cred/cellular-automata-transformer) · [superconducting-super-computation](https://github.com/salch-cred/superconducting-super-computation) (Josephson-junction SNN simulator) · [seismic-anomaly-detection-snn](https://github.com/salch-cred/seismic-anomaly-detection-snn) · [spiking-weather-net](https://github.com/salch-cred/spiking-weather-net) · [topological-data-homology-nets](https://github.com/salch-cred/topological-data-homology-nets) · [thermodynamic-neural-annealing](https://github.com/salch-cred/thermodynamic-neural-annealing) · [viscous-fluid-neural-flow](https://github.com/salch-cred/viscous-fluid-neural-flow) · [swarm-drug-molecule-designer](https://github.com/salch-cred/swarm-drug-molecule-designer) · [symbiotic-multi-agent-rlaif](https://github.com/salch-cred/symbiotic-multi-agent-rlaif).
+
+<br />
+
+<div align="center"><img src="assets/sec-06.svg" width="100%" alt="06 — Stack and contact" /></div>
+
+<br />
+
+| | |
+| --- | --- |
+| **Languages** | TypeScript · Python · Solidity · Move · SQL |
+| **Agents** | tool-calling runtimes · MCP · x402 · RAG with cited evidence · evaluation harnesses |
+| **Infra** | Next.js · FastAPI · Postgres · Redis · Docker · CI/CD · observability |
+| **Chains** | GOAT · 0G · GenLayer · Aptos/Shelby · Stellar · EVM |
+| **ML** | PyTorch · scikit-learn · pandas · diffing and evidence pipelines |
+
+<br />
+
+Open to work on agent infrastructure, settlement and adjudication, and hard reliability problems in long-running systems.
+
+**`salmanch98@gmail.com`** · [X](https://twitter.com/salmanch_) · [LinkedIn](https://www.linkedin.com/in/salman-chhatwal-70339227a/)

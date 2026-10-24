@@ -1,0 +1,9 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 44" width="1200" height="44" role="presentation">
+  <rect y="30" width="1200" height="1" fill="#242427"/>
+  <rect x="0" y="30" width="36" height="1" fill="#C8F04A"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace">
+    <text x="0" y="22" fill="#C8F04A" font-size="11" letter-spacing="2">06</text>
+    <text x="34" y="22" fill="#E8E8E6" font-size="13" font-weight="700" letter-spacing="3">STACK</text>
+    <text x="1200" y="22" text-anchor="end" fill="#6E6E68" font-size="10" letter-spacing="2">AND CONTACT</text>
+  </g>
+</svg>

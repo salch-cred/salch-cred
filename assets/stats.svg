@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-label="Numbers">
+  <rect width="1200" height="96" fill="#111113"/>
+  <rect x="0.5" y="0.5" width="1199" height="95" fill="none" stroke="#242427"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace">
+    <g fill="#C8F04A" font-size="30" font-weight="700">
+      <text x="40" y="52">374</text>
+      <text x="340" y="52">68</text>
+      <text x="640" y="52">12</text>
+      <text x="940" y="52">25</text>
+    </g>
+    <g fill="#6E6E68" font-size="10" letter-spacing="2">
+      <text x="40" y="74">PRS TO HERMES UPSTREAM</text>
+      <text x="340" y="74">MERGED PULL REQUESTS</text>
+      <text x="640" y="74">SHIPPED PRODUCTS</text>
+      <text x="940" y="74">STARS · MEDIVAULT</text>
+    </g>
+    <g stroke="#242427">
+      <path d="M315 22v52"/><path d="M615 22v52"/><path d="M915 22v52"/>
+    </g>
+  </g>
+</svg>
