@@ -140,13 +140,13 @@ Smaller, stranger builds where the constraint is the point — every one of them
 
 <br />
 
-| | |
-| --- | --- |
-| **Languages** | TypeScript · Python · Solidity · Move · SQL |
-| **Agents** | tool-calling runtimes · MCP · x402 · RAG with cited evidence · evaluation harnesses |
-| **Infra** | Next.js · FastAPI · Postgres · Redis · Docker · CI/CD · observability |
-| **Chains** | GOAT · 0G · GenLayer · Aptos/Shelby · Stellar · EVM |
-| **ML** | PyTorch · scikit-learn · pandas · diffing and evidence pipelines |
+Everything I actually work in, no padding.
+
+<br />
+
+<div align="center">
+  <img src="assets/stack.svg" width="100%" alt="Stack: languages, frontend, backend, data, AI/ML, agents, chains, infra, testing and design" />
+</div>
 
 <br />
 

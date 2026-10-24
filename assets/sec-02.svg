@@ -1,9 +1,11 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 44" width="1200" height="44" role="presentation">
-  <rect y="30" width="1200" height="1" fill="#242427"/>
-  <rect x="0" y="30" width="12" height="1" fill="#C8F04A"/>
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace">
-    <text x="0" y="22" fill="#C8F04A" font-size="11" letter-spacing="2">02</text>
-    <text x="34" y="22" fill="#E8E8E6" font-size="13" font-weight="700" letter-spacing="3">HERMES AGENT</text>
-    <text x="1200" y="22" text-anchor="end" fill="#6E6E68" font-size="10" letter-spacing="2">374 PULL REQUESTS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 56" width="1200" height="56" role="presentation">
+  <rect x="1" y="20" width="1198" height="2" fill="#16140F" opacity="0.16"/>
+  <rect x="0" y="12" width="120" height="34" rx="17" fill="#C0A8FF" stroke="#16140F" stroke-width="2"/>
+  <circle cx="22" cy="29" r="13" fill="#16140F"/>
+  <text x="22" y="33" text-anchor="middle" fill="#C0A8FF" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10" font-weight="700" letter-spacing="0.5">02</text>
+  <text x="40" y="35" fill="#16140F" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="1.2">HERMES AGENT</text>
+  <g font-family="ui-monospace, Menlo, Consolas, monospace">
+    <rect x="1032" y="16" width="168" height="26" rx="13" fill="#16140F" opacity="0.06"/>
+    <text x="1200" y="33" text-anchor="end" fill="#6F6A60" font-size="10" letter-spacing="1.6">374 PULL REQUESTS</text>
   </g>
 </svg>
