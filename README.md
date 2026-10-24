@@ -155,7 +155,7 @@ Also authored 10 Hermes skills published as standalone repos — [daily briefing
 
 <br />
 
-**Also shipped:** [JanFix](https://github.com/salch-cred/janfix) (civic reporting, zero login, ward routing) · [Monaco CLOB dashboard](https://github.com/salch-cred/monaco-clob-dashboard) (Sei order book) · [SnakeCase](https://github.com/salch-cred/snakecase) (34-lesson Python curriculum) · [ZeroSense](https://github.com/salch-cred/zero-sense) (ZK robot proofs + Stellar micropayments) · [Reso](https://github.com/salch-cred/reso) (ZK compliance engine) · [Atropos tooling](https://github.com/salch-cred/atropos).
+**Also shipped:** [JanFix](https://github.com/salch-cred/janfix) (civic reporting, zero login, ward routing) · [Monaco CLOB dashboard](https://github.com/salch-cred/monaco-clob-dashboard) (Sei order book) · [SnakeCase](https://github.com/salch-cred/snakecase) (34-lesson Python curriculum) · [ZeroSense](https://github.com/salch-cred/zero-sense) (ZK robot proofs + Stellar micropayments) · [Reso](https://github.com/salch-cred/reso) (ZK compliance engine) · [Atropos fork](https://github.com/salch-cred/atropos) (LLM RL environments).
 
 <br />
 
