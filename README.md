@@ -6,7 +6,7 @@
 
 Full-stack and AI/ML engineer. Most of what I build sits under agents rather than inside them: settlement rails, permission layers, adjudication, the machinery that has to hold when nobody is watching.
 
-I work upstream too. 374 pull requests and 58 commits to Nous Research's Hermes Agent and its plugin repos â€” TUI, gateway, tool layer, desktop runtimes, state stores, adapters.
+I work upstream too. 374 pull requests and 58 commits to Nous Research's Hermes Agent — almost all of it patches to the runtime itself, plus its plugin repos â€” TUI, gateway, tool layer, desktop runtimes, state stores, adapters.
 
 <br />
 
@@ -32,7 +32,7 @@ I work upstream too. 374 pull requests and 58 commits to Nous Research's Hermes 
 <br />
 
 <div align="center">
-  <img src="assets/stats.svg" width="100%" alt="374 upstream PRs, 58 commits authored, 3 merged, 10 skills published" />
+  <img src="assets/stats.svg" width="100%" alt="374 upstream PRs, 58 hermes-agent commits, 3 merged, 10 skills published" />
 </div>
 
 <br />
@@ -47,24 +47,58 @@ Shipped upstream:
 | [`hermes-official-plugins#61`](https://github.com/NousResearch/hermes-official-plugins/pull/61) | directsdk: carries the login identity into the child env, captures native stderr |
 | [`hermes-labs-plugins#3`](https://github.com/NousResearch/hermes-labs-plugins/pull/3) | record: an `autocomplete` token inside a list is still a secret field |
 
-The patches themselves — 58 commits across 20+ topic branches:
+The patches themselves — all 58 commits, in `hermes-agent` only, across 20+ topic branches:
 
-| Commit | What it does |
+| Date | Commit |
 | --- | --- |
-| `fix(gateway): park a unit on unprovable --replace ownership instead of restart-looping` | stops a restart loop when ownership of a gateway unit can't be proven |
-| `fix(gateway): rescue orphaned FIFO overflow when session goes idle (#99882)` | drains the FIFO a dead session leaves behind |
-| `fix(gateway): log every missed liveness probe and dump the loop's task state` | makes a wedged loop diagnosable instead of silent |
-| `fix(tools): bound a check_fn probe so a wedged availability check cannot hang the turn` | time-boxes tool availability probes |
-| `fix(state): key display identity of tool rows on stable tool identity, not payload bytes (#117750)` | rows stop re-keying on every payload change |
-| `fix(state): implement lazy flock single-writer gate to prevent WAL corruption` | single-writer gate over short-lived connections |
-| `fix(desktop): assistant rows whose text persisted to sidecars no longer vanish on rehydrate (#68321)` | restores rows that rehydrated blank |
-| `fix(discord): dispatch-side liveness dimension detects an ACKing-but-deaf gateway socket (#109521)` | catches a socket that ACKs but never delivers |
-| `fix(agent): mirror Claude Code OAuth refresh into the macOS Keychain (#98334)` | keeps the refresh token where the OS expects it |
-| `fix(checkpoints): drop oversize files from the index by literal pathspec` | oversized blobs no longer wedge the checkpoint index |
-| `fix(backup): percent-encode path in _query_ro_sqlite URI` | backup paths with spaces resolve |
-| `fix(cron): keep a sticky last_failure stamp so a healed run stays visible` | a healed cron run still shows it failed |
-| `fix(whatsapp): adapter reads WHATSAPP_GROUP_ALLOWED_USERS for the group allowlist (#72529)` | group allowlist honours the documented env var |
-| `fix(preview): use proper input events for React/contenteditable/submit in drive_preview type` | typing lands in React and contenteditable fields |
+| 2026-10-21 | `fix(gateway): log every missed liveness probe and dump the loop's task state` |
+| 2026-10-21 | `fix(gateway): a retiring workspace takes no new work (#134889 TUI-27)` |
+| 2026-10-21 | `fix(browser): an unbound thread resolves no configured CDP endpoint (#134889 GW-26)` |
+| 2026-10-21 | `fix(checkpoints): pin literal pathspec mode for plan-owned git selections` |
+| 2026-10-21 | `fix(checkpoints): drop oversize files from the index by literal pathspec` |
+| 2026-10-21 | `fix(agent): serialize stdio installer transactions on the shared install lock` |
+| 2026-10-20 | `fix(tools): do not drop a tool whose probe answered at the deadline` |
+| 2026-10-20 | `fix(tools): bound a check_fn probe so a wedged availability check cannot hang the turn` |
+| 2026-10-20 | `fix(approval): scope the git force-push patterns to the push's own command segment` |
+| 2026-10-19 | `fix(stdio): never stack Hermes stdio proxies across the agent-build cycle (#139687)` |
+| 2026-10-19 | `fix(prompt): render toolset-gated guidance in the volatile tier (#137307)` |
+| 2026-10-19 | `test: tolerate bases without the redacting stdio wrapper in the proxy-depth helper` |
+| 2026-10-18 | `fix(gateway): park a unit on unprovable --replace ownership instead of restart-looping` |
+| 2026-10-18 | `fix(gateway): let the startup_failed stamp clear the way instead of parking the unit` |
+| 2026-10-18 | `fix(gateway): make the ownership-refusal stamp durable before the hard exit` |
+| 2026-10-07 | `fix(agent): gate the 20-image eviction trigger on the request's dimensions` |
+| 2026-10-07 | `fix(anthropic): give the wire image-eviction pass the 24 MB request budget` |
+| 2026-10-02 | `fix(state): key display identity of tool rows on stable tool identity, not payload bytes (#117750)` |
+| 2026-09-29 | `fix(cron): keep a sticky last_failure stamp so a healed run stays visible` |
+| 2026-09-27 | `fix(auth): treat nous as a single-use refresh pool provider` |
+| 2026-09-27 | `fix(memory): migration note must not imply config.yaml provider keys still apply` |
+| 2026-09-26 | `fix(backup): percent-encode path in _query_ro_sqlite URI` |
+| 2026-09-14 | `fix(whatsapp): adapter reads WHATSAPP_GROUP_ALLOWED_USERS for the group allowlist (#72529)` |
+| 2026-09-14 | `fix(discord): dispatch-side liveness dimension detects an ACKing-but-deaf gateway socket (#109521)` |
+| 2026-09-13 | `fix(agent): same-model review fork inherits the parent's resolved cache scope (#109964)` |
+| 2026-09-13 | `fix(mcp): skip dynamic tool refresh when the server session is already gone (#109824)` |
+| 2026-09-13 | `fix(agent): mirror Claude Code OAuth refresh into the macOS Keychain (#98334)` |
+| 2026-09-13 | `fix(discord): liveness probe gains a dispatch-side dimension (#109521)` |
+| 2026-09-12 | `fix(desktop): do not fail build if get-windows is missing on any platform` |
+| 2026-09-11 | `fix(kanban): preserve sticky block on tasks created with initial_status=blocked (#107398)` |
+| 2026-09-11 | `fix(tui_gateway): handle deleted profiles gracefully in _response_profile_name (#107829)` |
+| 2026-09-10 | `run: quiesce cron/deferred workers before DB close` |
+| 2026-09-09 | `fix(serve): reserve ProcessLookupError for known missing process signals` |
+| 2026-09-09 | `fix(serve): ensure parent-death watchdog detects exited Desktop parent (#80204)` |
+| 2026-09-03 | `style: separate vitest import from local imports (perfectionist/sort-imports)` |
+| 2026-09-03 | `fix(desktop): assistant rows whose text persisted to sidecars no longer vanish on rehydrate (#68321)` |
+| 2026-09-03 | `lint: fix import ordering in chat-messages.reasoning-survival.test.ts` |
+| 2026-09-02 | `fix(recovery): make the printed salvage command satisfy the real CLI contract` |
+| 2026-09-02 | `fix(recovery): stop pointing sqlite3 .recover guidance at the live state.db` |
+| 2026-09-01 | `refactor(gateway): drop constant conditional in rescue helper` |
+| 2026-09-01 | `fix(update): break the cron-update three-way restart deadlock (#100179)` |
+| 2026-09-01 | `fix(gateway): rescue orphaned FIFO overflow when session goes idle (#99882)` |
+| 2026-08-31 | `fix(preview): use proper input events for React/contenteditable/sumbit in drive_preview type` |
+| 2026-08-30 | `fix(agent): exempt :cloud GLM models from stop->length truncation rewrite` |
+| 2026-08-30 | `fix(desktop): honour arrowed slash-picker highlight on bare '/' query` |
+| 2026-08-30 | `test(agent): split GLM cloud/local stop-continuation cases` |
+| 2026-08-29 | `fix(cron): accept bare duration units like 'hour' in schedule parsing` |
+| 2026-08-29 | `fix(cron): mention bare units in the duration parse error` |
 
 Open and in review: [gateway restart paths](https://github.com/NousResearch/hermes-agent/pull/142501) Â· [stale heartbeat requeues](https://github.com/NousResearch/hermes-agent/pull/142275) Â· [execute_code kernel memory caps](https://github.com/NousResearch/hermes-agent/pull/142249) Â· [wedged `check_fn` probes](https://github.com/NousResearch/hermes-agent/pull/142062) Â· [bounded inbound media download](https://github.com/NousResearch/hermes-official-plugins/pull/153) Â· [local-time timestamps in Home Assistant](https://github.com/NousResearch/hermes-official-plugins/pull/160).
 
