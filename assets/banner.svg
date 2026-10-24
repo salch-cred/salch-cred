@@ -1,57 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Salman — AI/ML engineer, Mangaluru, India">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Salman — AI/ML engineer">
   <defs>
     <pattern id="ht" width="14" height="14" patternUnits="userSpaceOnUse">
       <circle cx="3" cy="3" r="2.2" fill="#111111" fill-opacity="0.2"/>
     </pattern>
-    <clipPath id="fr"><rect x="14" y="14" width="1172" height="272" rx="24"/></clipPath>
+    <clipPath id="fr"><rect x="14" y="14" width="1172" height="252" rx="24"/></clipPath>
   </defs>
 
-  <rect width="1200" height="300" fill="#FFD84A"/>
+  <rect width="1200" height="280" fill="#FFD84A"/>
   <g clip-path="url(#fr)">
-    <rect width="1200" height="300" fill="url(#ht)"/>
-    <circle cx="1010" cy="150" r="104" fill="#FF5A3C" fill-opacity="0.18"/>
-    <circle cx="1010" cy="150" r="52" fill="#A78BFA" fill-opacity="0.28"/>
+    <rect width="1200" height="280" fill="url(#ht)"/>
+    <circle cx="1010" cy="140" r="104" fill="#FF5A3C" fill-opacity="0.18"/>
+    <circle cx="1010" cy="140" r="52" fill="#A78BFA" fill-opacity="0.28"/>
 
-    <!-- squiggle -->
-    <path d="M610 236c26-26 50 22 76-4s50 22 76-4 50 22 76-4" fill="none" stroke="#111111" stroke-width="4" stroke-linecap="round"/>
+    <path d="M560 232c26-24 50 20 76-4s50 20 76-4 50 20 76-4" fill="none" stroke="#111111" stroke-width="4" stroke-linecap="round"/>
 
-    <!-- stars -->
     <g fill="#FFFFFF" stroke="#111111" stroke-width="3" stroke-linejoin="round">
-      <path d="M1132 52l6 14 15 2-11 10 3 15-13-7-13 7 3-15-11-10 15-2z"/>
-      <path d="M636 84l4 9 10 1-7 7 2 10-9-5-9 5 2-10-7-7 10-1z"/>
+      <path d="M1132 44l6 14 15 2-11 10 3 15-13-7-13 7 3-15-11-10 15-2z"/>
+      <path d="M586 68l4 9 10 1-7 7 2 10-9-5-9 5 2-10-7-7 10-1z"/>
     </g>
 
-    <!-- flowers -->
     <g stroke="#111111" stroke-width="3">
       <g fill="#FFFFFF">
-        <circle cx="1010" cy="96" r="17"/><circle cx="1054" cy="120" r="17"/><circle cx="1054" cy="168" r="17"/>
-        <circle cx="1010" cy="192" r="17"/><circle cx="966" cy="168" r="17"/><circle cx="966" cy="120" r="17"/>
+        <circle cx="1010" cy="86" r="17"/><circle cx="1054" cy="110" r="17"/><circle cx="1054" cy="158" r="17"/>
+        <circle cx="1010" cy="182" r="17"/><circle cx="966" cy="158" r="17"/><circle cx="966" cy="110" r="17"/>
       </g>
-      <circle cx="1010" cy="144" r="19" fill="#FF5A3C"/>
+      <circle cx="1010" cy="134" r="19" fill="#FF5A3C"/>
     </g>
     <g stroke="#111111" stroke-width="2.6">
       <g fill="#A78BFA">
-        <circle cx="1104" cy="216" r="11"/><circle cx="1132" cy="232" r="11"/><circle cx="1118" cy="258" r="11"/>
+        <circle cx="1104" cy="208" r="11"/><circle cx="1132" cy="224" r="11"/><circle cx="1118" cy="250" r="11"/>
       </g>
-      <circle cx="1118" cy="235" r="11" fill="#FFFFFF"/>
+      <circle cx="1118" cy="227" r="11" fill="#FFFFFF"/>
     </g>
   </g>
 
-  <rect x="14" y="14" width="1172" height="272" rx="24" fill="none" stroke="#111111" stroke-width="6"/>
+  <rect x="14" y="14" width="1172" height="252" rx="24" fill="none" stroke="#111111" stroke-width="6"/>
 
-  <g transform="rotate(-1.6 400 150)" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
-    <text x="56" y="176" font-size="112" font-weight="800" letter-spacing="-4" fill="#FFFFFF" stroke="#111111" stroke-width="10" paint-order="stroke" stroke-linejoin="round">SALMAN</text>
+  <g transform="rotate(-1.6 400 128)" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="56" y="158" font-size="112" font-weight="800" letter-spacing="-4" fill="#FFFFFF" stroke="#111111" stroke-width="10" paint-order="stroke" stroke-linejoin="round">SALMAN</text>
   </g>
 
   <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
-    <rect x="58" y="196" width="228" height="40" rx="20" fill="#111111"/>
-    <text x="80" y="222" fill="#FFD84A" font-size="14" font-weight="800" letter-spacing="2.4">AI/ML ENGINEER</text>
+    <rect x="58" y="184" width="228" height="40" rx="20" fill="#111111"/>
+    <text x="80" y="210" fill="#FFD84A" font-size="14" font-weight="800" letter-spacing="2.4">AI/ML ENGINEER</text>
   </g>
 
-  <g font-family="ui-monospace, Menlo, Consolas, 'Courier New', monospace">
-    <rect x="298" y="196" width="212" height="40" rx="20" fill="#FFFFFF" stroke="#111111" stroke-width="4"/>
-    <path d="M322 224c0-6 5-10 11-10s11 4 11 10c0 8-11 14-11 14s-11-6-11-14z" fill="#FF5A3C" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
-    <circle cx="333" cy="223" r="3.4" fill="#111111"/>
-    <text x="350" y="222" fill="#111111" font-size="12.5" font-weight="700" letter-spacing="1.8">MANGALURU, IN</text>
+  <g stroke="#111111" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M312 204h26"/><path d="M352 196l10 8-10 8"/><path d="M378 204h120"/>
   </g>
 </svg>

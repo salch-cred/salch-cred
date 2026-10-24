@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.svg" width="100%" alt="Salman — AI/ML engineer, Mangaluru, India" />
+  <img src="assets/banner.svg" width="100%" alt="Salman — AI/ML engineer" />
 </div>
 
 <br />
@@ -215,4 +215,20 @@ Everything I actually work in, no padding.
 
 Open to work on agent infrastructure, settlement and adjudication, and hard reliability problems in long-running systems.
 
-**`salmanch98@gmail.com`** · [X](https://twitter.com/salmanch_) · [LinkedIn](https://www.linkedin.com/in/salman-chhatwal-70339227a/)
+<br />
+
+<div align="center"><img src="assets/rule.svg" width="100%" alt="" /></div>
+
+<br />
+
+<div align="center">
+  <img src="assets/footer.svg" width="100%" alt="Let's build — agent infrastructure, settlement, adjudication" />
+</div>
+
+<br />
+
+<div align="center">
+  <a href="https://twitter.com/salmanch_"><b>X / @salmanch_</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/salch-cred"><b>github.com/salch-cred</b></a>
+</div>
